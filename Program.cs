@@ -13,7 +13,7 @@ namespace Act1Problem2
             String idn = Console.ReadLine();
 
             TimeSpan RegTimeStart = new TimeSpan(8, 30, 0);
-            TimeSpan timeIn = new TimeSpan(8, 0, 0);
+            TimeSpan timeIn = new TimeSpan(8, 31, 0);
             Console.WriteLine($"Your log-in time is recorded! {timeIn}");
 
 
@@ -39,7 +39,7 @@ namespace Act1Problem2
             Console.WriteLine("**************Lunch********");
 
 
-            TimeSpan lunchIn = new TimeSpan(1, 0, 0);
+            TimeSpan lunchIn = new TimeSpan(1, 01, 0);
             Console.WriteLine($"Please enter your Company Identification number to log in: {lunchIn}");
             idn = Console.ReadLine();
             Console.WriteLine("Your lunch time duration is recorded!");
